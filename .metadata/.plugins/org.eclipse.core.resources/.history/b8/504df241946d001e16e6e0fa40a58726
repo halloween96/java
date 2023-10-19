@@ -1,0 +1,11 @@
+package edu_chap3;
+
+public class Test30 {
+	public static void main(String[] args) {
+		int i = 6;
+		if (i % 2 == 0) {
+			if (i % 3 == 0)
+				System.out.println("6은 2,3의 배수이다");
+		}
+	}
+}

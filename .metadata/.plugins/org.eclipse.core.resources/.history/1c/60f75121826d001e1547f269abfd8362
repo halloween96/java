@@ -1,0 +1,12 @@
+package edu_chap3;
+
+public class Test25 {
+	public static void main(String[] args) {
+		int a = 0;
+		int d = 5;
+		for (int i = 0; i < 2; i++) {
+			System.out.println("i = " + i + " a = " + a);
+			a += d;
+		}
+	}
+}
